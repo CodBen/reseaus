@@ -1,4 +1,4 @@
-<?php // Exemple 27-2 : header.php
+<?php // Header général
   session_start();
 
 echo <<<_INITIAL
@@ -9,9 +9,12 @@ echo <<<_INITIAL
     <meta name='viewport' content='width=device-width, initial-scale=1'> 
     <link rel='stylesheet' href='jquery.mobile-1.4.5.min.css'>
     <link rel='stylesheet' href='styles.css' type='text/css'>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
     <script src='javascript.js'></script>
     <script src='jquery-2.2.4.min.js'></script>
     <script src='jquery.mobile-1.4.5.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js'></script>
 
 _INITIAL;
 

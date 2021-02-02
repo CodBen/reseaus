@@ -43,7 +43,7 @@
   $result = queryMysql("SELECT user FROM members ORDER BY user");
   $num    = $result->num_rows;
 
-  echo "<h3>Autres membres</h3><ul>";
+  echo "<h3>Les autres membres</h3><ul>";
 
   for ($j = 0 ; $j < $num ; ++$j)
   {

@@ -31,25 +31,25 @@
 
 echo <<<_END
       <form method='post' action='login.php'>
-        <div data-role='fieldcontain'>
+        <div class="container" data-role='fieldcontain'>
           <label></label>
           <span class='error'>$error</span>
         </div>
-        <div data-role='fieldcontain'>
+        <div class="container" data-role='fieldcontain'>
           <label></label>
           Entrez les renseignements demandés pour vous connecter
         </div>
-        <div data-role='fieldcontain'>
+        <div class="container" data-role='fieldcontain'>
           <label>Nom d'utilisateur</label>
           <input type='text' maxlength='16' name='user' value='$user'>
         </div>
-        <div data-role='fieldcontain'>
+        <div class="container" data-role='fieldcontain'>
           <label>Mot de passe</label>
           <input type='password' maxlength='16' name='pass' value='$pass'>
         </div>
-        <div data-role='fieldcontain'>
+        <div class="container" data-role='fieldcontain'>
           <label></label>
-          <input data-transition='slide' type='submit' value='Je me connecte'>
+          <input class="btn btn-success" data-transition='slide' type='submit' value='Je me connecte'>
         </div>
       </form>
     </div>

@@ -50,23 +50,23 @@ _END;
 
 echo <<<_END
       <form method='post' action='signup.php'>$error
-      <div data-role='fieldcontain'>
+      <div class="container" data-role='fieldcontain'>
         <label></label>
         Entrez les renseignements demandés pour vous inscrire
       </div>
-      <div data-role='fieldcontain'>
+      <div class="container" data-role='fieldcontain'>
         <label>Nom d'utilisateur</label>
         <input type='text' maxlength='16' name='user' value='$user'
           onBlur='checkUser(this)'>
         <label></label><div id='used'>&nbsp;</div>
       </div>
-      <div data-role='fieldcontain'>
+      <div class="container" data-role='fieldcontain'>
         <label>Mot de passe</label>
-        <input type='text' maxlength='16' name='pass' value='$pass'>
+        <input type='password' maxlength='16' name='pass' value='$pass'>
       </div>
-      <div data-role='fieldcontain'>
+      <div class="container" data-role='fieldcontain'>
         <label></label>
-        <input data-transition='slide' type='submit' value='Je m&rsquo;inscris'>
+        <input class="btn btn-success" data-transition='slide' type='submit' value='Je m&rsquo;inscris'>
       </div>
     </div>
   </body>

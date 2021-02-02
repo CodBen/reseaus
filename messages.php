@@ -27,6 +27,7 @@
     {
       $name1 = $name2 = "Vos";
       echo "<h3>$name1 messages</h3>";
+      //On prévoit les situations
     }
     else
     {
