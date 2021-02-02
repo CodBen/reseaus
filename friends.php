@@ -1,4 +1,4 @@
-<?php // Exemple 27-10 : friends.php
+<?php // amis
   require_once 'header.php';
 
   if (!$loggedin) die("</div></body></html>");
@@ -19,8 +19,8 @@
     $name3 = "$view";
   }
 
-  // Ôtez le commentaire de cette ligne pour afficher le profil d'utilisateur
-  // showProfile($view);
+
+  showProfile($view);
 
   $followers = array();
   $following = array();

@@ -1,4 +1,4 @@
-<?php // Exemple 27-1 : functions.php
+<?php // Fonctions à appeler (require)
   $dbhost  = 'localhost';    // Hôte probable
   $dbname  = 'reseaus';   // Modifiez ces...
   $dbuser  = 'root';   // ...variables en fonction

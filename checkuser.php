@@ -1,4 +1,4 @@
-<?php // Exemple 27-6 : checkuser.php
+<?php // Vérification de l'user (registration)
   require_once 'functions.php';
 
   if (isset($_POST['user']))
